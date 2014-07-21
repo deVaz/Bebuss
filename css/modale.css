@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+
+#popup_name h2,
+#connexionForm h2{ 
+	color: #7E7E7E;
+	font: bold 25px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin-left:20px;
+	}
+	.success h1 {
+	color: #7E7E7E;
+	font: bold 30px Helvetica, Arial, sans-serif;
+	}
+#contact input[id="pseudo"],
+#contact input[id="pseudo1"]{
+	background: #eae7e7 url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat scroll 7px 11px;
+    width:45%;
+  
+}
+#name{
+	background: #eae7e7 url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat scroll 7px 11px;
+    width:80%;
+}
+#mdp,
+#mdp1{
+	background: #eae7e7 url('../images/pass1.png') no-repeat scroll  4px 11px;
+	 width:80%;
+}
+#email{
+	background: #eae7e7 url('../images/message2.png') no-repeat  scroll 8px 15px;
+	 width:80%;
+}
+#sexe{
+	float:right;
+	margin-right:25px;
+	margin-top:8px;
+}
+
+select.select{
+    position:relative;
+    z-index:10;
+    width:70px !important;
+    height:40px ;
+    line-height:60px;
+}
+
+#contact{ margin: 0 20px; position: relative }
+#popup_name form input[type="text"],
+#popup_name form input[type="password"],
+#connexionForm form input[type="text"],
+#connexionForm form input[type="password"]{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border: 1px solid #c8c8c8;
+	color: #777;
+	font: 15px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	
+}
+#popup_name form input[type="text"]:focus,
+#popup_name form input[type="password"]:focus,
+#connexionForm form input[type="text"]:focus,
+#connexionForm form input[type="password"]:focus {
+	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
+	-moz-box-shadow: 0 0 2px #ed1c24 inset;
+	-ms-box-shadow: 0 0 2px #ed1c24 inset;
+	-o-box-shadow: 0 0 2px #ed1c24 inset;
+	box-shadow: 0 0 2px #ed1c24 inset;
+	background-color: #fff;
+	border: 1px solid #ed1c24;
+	outline: none;
+}
+#username { background-position: 10px 10px !important }
+#password { background-position: 10px -53px !important }
+#contact_up {
+	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: pointer;
+	float: left;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+	 padding: .5em;
+}
+#contact_co {
+	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: pointer;
+	float: left;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 140px;
+	 padding: .5em;
+}
+#contact_up:focus{
+	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
+	-moz-box-shadow: 0 0 2px #ed1c24 inset;
+	-ms-box-shadow: 0 0 2px #ed1c24 inset;
+	-o-box-shadow: 0 0 2px #ed1c24 inset;
+	box-shadow: 0 0 2px #ed1c24 inset;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+#contact_co:focus{
+	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
+	-moz-box-shadow: 0 0 2px #ed1c24 inset;
+	-ms-box-shadow: 0 0 2px #ed1c24 inset;
+	-o-box-shadow: 0 0 2px #ed1c24 inset;
+	box-shadow: 0 0 2px #ed1c24 inset;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+#contact_up:hover {
+	background: rgb(254,193,81);
+	background: -moz-linear-gradient(top,  rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+
+}    
+
+
+#fileupload {
+    position: relative;
+	height: 25px;
+	width: 50px;
+	cursor: pointer;
+margin-left:30px;
+opacity:0;
+
+   
+}
+#photo_up
+{
+	position:absolute;
+	 margin-left:42px;
+	margin-top:-10px;
+}
+
+
+#picture_submit{
+	width:100px;
+	cursor:pointer;
+	margin-left:8px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+	margin-bottom:5px;
+	}
+#profile_pic{
+	margin-left:-5px;
+	margin-top:-4px;
+}
+#picture_upload{	
+	width:100px;
+	border:1px solid #1c1e21;
+	border-radius:5px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+}
+
+
